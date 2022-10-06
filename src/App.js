@@ -1,5 +1,5 @@
-import './App.css';
-import AboutMe from './components/AboutMe';
+import AboutMe from './AboutMe';
+import katImg from './assets/images/kat.png'
 
 function App() {
   return (
