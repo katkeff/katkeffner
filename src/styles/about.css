@@ -2,7 +2,7 @@ body {
   background-color: #31363C;
 }
 
-.AboutMe{
+.AboutMe {
   display: grid;
   text-align: center;
   grid-template-columns: 1fr 2fr;
