@@ -1,4 +1,5 @@
-
+import tomato from '../assets/images/tomato.gif'
+import lofi from '../assets/images/lofi-beat-kit.gif'
 
 const projects = [
   {
@@ -8,7 +9,7 @@ const projects = [
     description: [
       'Tomato is a social media application that allows you to drop a pin to your precise location with a message, a photo, or a video to broadcast events to your friends and the world.'
     ],
-    image: 'tomato.gif',
+    image: tomato,
     link: 'https://github.com/team-tomatoes/tomato',
   },
   {
@@ -18,7 +19,7 @@ const projects = [
     description: [
       'A simple six pad drum kit with percussion and melody ready to play on mobile or web browser!',
     ],
-    image: 'lofi-beat-kit.gif',
+    image: lofi,
     link: 'https://github.com/katkeff/lofi-beat-kit',
   }
 ];
