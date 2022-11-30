@@ -9,6 +9,7 @@ body {
   grid-gap: 1px;
   color: #FFFFFF;
   font-family: 'Courier New', monospace;
+  padding: 20px;
 }
 
 a {
