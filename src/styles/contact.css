@@ -1,0 +1,51 @@
+.title{
+  font-size: 25px;
+  color: white;
+  font-family: 'Courier New', monospace;
+}
+
+.icons{
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.instagram{
+  color: white;
+  padding: 0.5em;
+}
+
+.github{
+  color: #FFFFFF;
+  padding: 0.5em;
+}
+
+.linkedin{
+  color: #FFFFFF;
+  padding: 0.5em;
+}
+
+.mail{
+  color: #FFFFFF;
+  padding: 0.5em;
+}
+
+.instagram:hover {
+  color: #D47284;
+}
+
+.github:hover {
+  color: #D47284;
+}
+
+.linkedin:hover {
+  color: #D47284;
+}
+
+.mail:hover {
+  color: #D47284;
+}

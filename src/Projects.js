@@ -10,12 +10,16 @@ const Projects = () => {
       <div>
         {projects.map((project) => (
           <div className={projects} key={project.id}>
+              <div className='projects'>
             <h1>
               <a href={project.link}>{project.title}</a>
             </h1>
             <p>{project.tech}</p>
             <p>{project.description}</p>
-            <img className="images" alt='img' src={project.image}></img>
+            <a href={project.link}>
+              <img className="images" alt='img' src={project.image} href={project.link}></img>
+            </a>
+            </div>
           </div>
         ))}
       </div>
