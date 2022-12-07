@@ -1,14 +1,21 @@
 import React from "react";
-import HoverImage from "react-hover-image";
 import katImg from './assets/images/kat.png'
 import katCool from './assets/images/katCool.png'
+import { useState } from "react";
 
-const KatPic: React.SFC = () => {
+const KatPic = () =>  {
+  const [over, setOver] = useState(false);
   return (
-    <div>
-      <HoverImage src={katImg} hoverSrc={katCool} />
-    </div>
-  );
-};
+    <div
+      onMouseOver={() => setOver(true)}
+      onMouseOut={() => setOver(false)}
+    >
+        <img
+          src={over ? katCool : katImg}
+          alt={'insert cool pic of kat here'}
+        />
+    </div>   
+  )
+  }
 
-export default KatPic;
+export default KatPic
