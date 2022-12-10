@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/about.css'
-import katImg from './assets/images/kat.png'
+import kat from './assets/images/kat.png'
 import katCool from './assets/images/katCool.png'
 import { useState } from "react";
 
@@ -13,7 +13,7 @@ function AboutMe() {
       onMouseOut={() => setOver(false)}
       >
         <img
-          src={over ? katCool : katImg}
+          src={over ? katCool : kat}
           alt={'insert cool pic of kat here'}
         />
     </div>   
