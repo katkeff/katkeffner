@@ -1,11 +1,22 @@
 import React from 'react';
-import KatPic from './KatPic';
 import './styles/about.css'
+import katImg from './assets/images/kat.png'
+import katCool from './assets/images/katCool.png'
+import { useState } from "react";
 
 function AboutMe() {
+  const [over, setOver] = useState(false);
   return (
     <section className="AboutMe">
-      <KatPic />
+      <div className="KatLogo"
+      onMouseOver={() => setOver(true)}
+      onMouseOut={() => setOver(false)}
+      >
+        <img
+          src={over ? katCool : katImg}
+          alt={'insert cool pic of kat here'}
+        />
+    </div>   
     <div className='aboutmetxt'>
       <h2>Hello!</h2>
       <p>My name is Kat Keffner and I am a software engineer from New York.</p>
@@ -17,7 +28,6 @@ function AboutMe() {
       <p>Now, my ambition as a developer is to be a part of something meaningful, and bigger than myself.</p>
       <p>Please check out my projects below, and let's get connected!</p>
     </div>
-
     </section>
   );
 }
