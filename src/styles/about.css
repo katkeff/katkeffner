@@ -1,5 +1,6 @@
 .AboutMe {
   display: grid;
+  flex-wrap: wrap;
   text-align: center;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1px;

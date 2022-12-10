@@ -5,10 +5,11 @@
   font-family: 'Courier New', monospace;
   padding-left: 90px;
   padding-right: 90px;
+  flex-wrap: wrap;
 }
 
 .images {
-    width: 500px;
+    width: 50%;
     height: auto;
     --c: #EDAA84; /* the border color */
     --b: 5px;    /* the border thickness*/
