@@ -2,6 +2,7 @@
   font-size: 25px;
   color: white;
   font-family: 'Courier New', monospace;
+  text-align: center;
 }
 
 .icons{
@@ -34,7 +35,12 @@
   padding: 0.5em;
 }
 
-.spotify{
+.music{
+  color: #FFFFFF;
+  padding: 0.5em;
+}
+
+.fileperson{ 
   color: #FFFFFF;
   padding: 0.5em;
 }
@@ -55,6 +61,10 @@
   color: #D47284;
 }
 
-.spotify:hover {
+.music:hover {
+  color: #D47284;
+}
+
+.fileperson:hover {
   color: #D47284;
 }
