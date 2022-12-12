@@ -1,12 +1,12 @@
 import React from 'react'
-import projects from './assets/projects';
-import './styles/projects.css'
+import projects from '../assets/projects';
+import '../styles/projects.css'
 
 
 const Projects = () => {
   return (
     <section className="Projects">
-      <h2>Projects</h2>
+      <h2>Here are some cool projects I've done:</h2>
       <div>
         {projects.map((project) => (
           <div className={projects} key={project.id}>

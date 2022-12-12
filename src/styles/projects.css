@@ -1,16 +1,21 @@
 .Projects{
   grid-template-columns: 1fr 2fr;
   text-align: center;
+  font-size: x-large;
   color: #FFFFFF;
   font-family: 'Courier New', monospace;
   padding-left: 90px;
   padding-right: 90px;
+  padding-top: 1px;
   flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  justify-content: center;
 }
 
 .images {
     width: 50%;
     height: auto;
+    min-width: 300px;
     --c: #EDAA84; /* the border color */
     --b: 5px;    /* the border thickness*/
     --g: 5px;     /* the gap on hover */

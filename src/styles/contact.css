@@ -1,70 +1,19 @@
-.title{
-  font-size: 25px;
-  color: white;
+.container{
   font-family: 'Courier New', monospace;
-  text-align: center;
-}
-
-.icons{
-  font-family: 'Courier New', monospace;
-  font-size: 40px;
+  font-size: x-large;
+  display: flex;
   text-align: center;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 90px;
-  padding-right: 90px;
+  justify-content: center;
 }
 
-.instagram{
+.icon{
   color: white;
   padding: 0.5em;
+  font-size: 60px
 }
 
-.github{
-  color: #FFFFFF;
-  padding: 0.5em;
-}
-
-.linkedin{
-  color: #FFFFFF;
-  padding: 0.5em;
-}
-
-.mail{
-  color: #FFFFFF;
-  padding: 0.5em;
-}
-
-.music{
-  color: #FFFFFF;
-  padding: 0.5em;
-}
-
-.fileperson{ 
-  color: #FFFFFF;
-  padding: 0.5em;
-}
-
-.instagram:hover {
+.icon:hover {
   color: #D47284;
 }
 
-.github:hover {
-  color: #D47284;
-}
-
-.linkedin:hover {
-  color: #D47284;
-}
-
-.mail:hover {
-  color: #D47284;
-}
-
-.music:hover {
-  color: #D47284;
-}
-
-.fileperson:hover {
-  color: #D47284;
-}
