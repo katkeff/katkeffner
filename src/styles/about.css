@@ -1,6 +1,5 @@
 .aboutcontainer {
   display: grid;
-  height: 100vh;
   text-align: center;
   grid-gap: 1px;
   color: #FFFFFF;
