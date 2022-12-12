@@ -15,7 +15,7 @@
 .images {
     width: 50%;
     height: auto;
-    min-width: 300px;
+    min-width: 200px;
     --c: #EDAA84; /* the border color */
     --b: 5px;    /* the border thickness*/
     --g: 5px;     /* the gap on hover */
