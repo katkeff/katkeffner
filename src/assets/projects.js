@@ -1,11 +1,11 @@
-import tomato from '../assets/images/tomato.gif'
-import lofi from '../assets/images/lofi-beat-kit.gif'
-import pottery from '../assets/images/pottery-studio.gif'
+import tomato from '../assets/images/tomato.png'
+import pottery from '../assets/images/pottery-studio.png'
+import lofi from '../assets/images/lofi-beat-kit.png'
 
 const projects = [
   {
     id: 1,
-    title: 'Tomato',
+    title: 'Tomato', 
     tech: 'React Native, Expo, Xcode, React Hooks, Google Maps API, Firebase, Firestore',
     description: [
       'A social media application that allows you to drop a pin to your precise location with a message, a photo, or a video to broadcast events to your friends and the world.'
