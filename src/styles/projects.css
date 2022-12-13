@@ -1,14 +1,11 @@
 .Projects{
   grid-template-columns: 1fr 2fr;
   text-align: center;
-  font-size: x-large;
-  color: #FFFFFF;
-  font-family: 'Courier New', monospace;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 1px;
   flex-wrap: wrap;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
   justify-content: center;
 }
 
@@ -40,14 +37,3 @@ a {
   text-decoration: none;
 }
 
-a:link {
-  color: #D47284;
-}
-
-a:visited {
-  color: #D47284;
-}
-
-a:hover {
-  color: #EDAA84;
-}

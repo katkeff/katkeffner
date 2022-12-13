@@ -2,10 +2,7 @@
   display: grid;
   text-align: center;
   grid-gap: 1px;
-  color: #FFFFFF;
-  font-family: 'Courier New', monospace;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  font-size: x-large;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
 }
 
 
@@ -13,15 +10,4 @@ a {
   text-decoration: none;
 }
 
-a:link {
-  color: #D47284;
-}
-
-a:visited {
-  color: #D47284;
-}
-
-a:hover {
-  color: #EDAA84;
-}
 
