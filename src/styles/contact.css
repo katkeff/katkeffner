@@ -6,12 +6,12 @@
 }
 
 .icon{
-  color: white;
+  color: #D47284;
   padding: 0.5em;
   font-size: 60px
 }
 
 .icon:hover {
-  color: #D47284;
+  color: #EDAA84;
 }
 

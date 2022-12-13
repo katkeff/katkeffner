@@ -9,11 +9,12 @@
   justify-content: center;
 }
 
+
 .images {
     width: 50%;
     height: auto;
     min-width: 225px;
-    --c: #EDAA84; /* the border color */
+    --c: #93cd87; /* the border color */
     --b: 5px;    /* the border thickness*/
     --g: 5px;     /* the gap on hover */
     
