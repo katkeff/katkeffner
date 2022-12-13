@@ -92,7 +92,7 @@
 }
 
 .button-78:hover:not(:disabled):before {
-  background: linear-gradient(92.83deg, #D47284 0%, #EDAA84; 100%);
+  background: linear-gradient(92.83deg, #D47284 0%, #EDAA84 100%);
 }
 
 .button-78:hover:not(:disabled):after {
