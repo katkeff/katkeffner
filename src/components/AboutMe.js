@@ -2,14 +2,16 @@ import React from 'react';
 import kat from '../assets/images/kat.png'
 import katCool from '../assets/images/katCool.png'
 import { useState } from "react";
-import '../styles/about.css'
+import '../styles/about.scss'
 
 function AboutMe() {
   const [over, setOver] = useState(false);
   return (
     <div className="aboutcontainer">  
       <div className='aboutmetxt'>
-        <h2>Hi, I'm Kat!</h2>
+      <div class="center">
+  <h1 class="center__text glitch is-glitching" data-text="Hi, I'm Kat!">Hi, I'm Kat!</h1>
+</div>
         <p>I'm a Full Stack Developer from New York.</p>
         <p>I have a passion for innovation and creativity.</p>
         <p>I utilized my skills as a self-taught musician and graphic designer to teach myself how to code.</p>
