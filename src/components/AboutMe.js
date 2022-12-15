@@ -10,8 +10,8 @@ function AboutMe() {
     <div className="aboutcontainer">  
       <div className='aboutmetxt'>
       <div class="center">
-  <h1 class="center__text glitch is-glitching" data-text="Hi, I'm Kat!">Hi, I'm Kat!</h1>
-</div>
+  <h2 class="center__text glitch is-glitching" data-text="Hi, I'm Kat!">Hi, I'm Kat!</h2>
+      </div>
         <p>I'm a Full Stack Developer from New York.</p>
         <p>I have a passion for innovation and creativity.</p>
         <p>I utilized my skills as a self-taught musician and graphic designer to teach myself how to code.</p>

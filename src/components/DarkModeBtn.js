@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/darkMode.css'
 function DarkModeBtn() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
   const toggleTheme = () => {
     if (theme === 'light') {
     setTheme('dark');
