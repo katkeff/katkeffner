@@ -1,6 +1,7 @@
 import tomato from '../assets/images/tomato.png'
 import pottery from '../assets/images/pottery-studio.png'
 import lofi from '../assets/images/lofi-beat-kit.png'
+import portfolio from '../assets/images/portfolio.png'
 
 const projects = [
   {
@@ -32,6 +33,16 @@ const projects = [
     ],
     image: lofi,
     link: 'https://github.com/katkeff/lofi-beat-kit',
+  }, 
+  {
+    id: 4, 
+    title: 'Portfolio',
+    tech: "React, React Hooks, Bootstrap, SCSS, Styled Components",
+    description: [
+      'A portfolio website to display my skills, projects, and ways to get in touch.'
+    ],
+    image: portfolio,
+    link: 'https://github.com/katkeff/katkeffner'
   }
 ];
 
