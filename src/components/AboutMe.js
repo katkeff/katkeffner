@@ -16,7 +16,7 @@ function AboutMe() {
         <p>I have a passion for innovation and creativity.</p>
         <p>I utilized my skills as a self-taught musician and graphic designer to teach myself how to code.</p>
         <p>To further grow as a developer, I attended 
-            <a href="https://www.gracehopper.com/"> The Grace Hopper Program at Fullstack Academy&nbsp;</a>
+            <a href="https://www.gracehopper.com/"> The Grace Hopper Program&nbsp;</a>
         and was awarded a scholarship through&nbsp;
             <a href= "https://lesbianswhotech.org/pridesummit2023/">
               Lesbians Who Tech.</a>
