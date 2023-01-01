@@ -17,7 +17,7 @@ function AboutMe() {
         <p>I utilized my skills as a self-taught musician and graphic designer to teach myself how to code.</p>
         <p>To further grow as a developer, I attended a coding bootcamp: 
             <a href="https://www.gracehopper.com/"> The Grace Hopper Program.</a>
-            and was awarded a scholarship through 
+        and was awarded a scholarship through: 
             <a href= "https://lesbianswhotech.org/pridesummit2023/">Lesbians Who Tech.</a>
         </p>
         <p>Now, my ambition as a developer is to be a part of something meaningful, and bigger than myself.</p>
