@@ -37,7 +37,7 @@ const projects = [
   {
     id: 4, 
     title: 'Portfolio',
-    tech: "React, React Hooks, Bootstrap, SCSS, Styled Components",
+    tech: "React, React Hooks, Bootstrap, Styled Components",
     description: [
       'A portfolio website to display my skills, projects, and ways to get in touch.'
     ],
