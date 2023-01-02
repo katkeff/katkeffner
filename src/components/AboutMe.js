@@ -2,7 +2,7 @@ import React from 'react';
 import kat from '../assets/images/kat.png'
 import katCool from '../assets/images/katCool.png'
 import { useState } from "react";
-import '../styles/about.scss'
+import '../styles/about.css'
 
 function AboutMe() {
   const [over, setOver] = useState(false);
@@ -21,7 +21,7 @@ function AboutMe() {
               Lesbians Who Tech.</a>
         </p>
         <p>Now, my ambition as a developer is to be a part of something meaningful, and bigger than myself.</p>
-        <p>Please check out my portfolio below, and let's get connected!</p>
+        <p>Thank you for checking out my portfolio! Let's get connected.</p>
       <div className="KatLogo"
       onMouseOver={() => setOver(true)}
       onMouseOut={() => setOver(false)}
