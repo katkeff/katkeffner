@@ -14,8 +14,21 @@ useEffect(() => {
   }, [theme]);
   return (
   <div className={`App ${theme}`}>
-    <button className='button-78'onClick={toggleTheme}>toggle theme</button>
+<div class="area">
+  <div class="wire"></div>
+  <div class="fixture">
+    <div class="strip"></div>
+    <div class="strip"></div>
+    <div class="strip"></div>
   </div>
+  <div class="bulb" onClick={toggleTheme}>
+    <div class="zig"></div>
+    <div class="zig"></div>
+    <div class="zig"></div>
+  </div>
+</div>
+</div>
+
   );
 }
 export default DarkModeBtn;

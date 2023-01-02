@@ -9,8 +9,7 @@ function AboutMe() {
   return (
     <div className="aboutcontainer">  
       <div className='aboutmetxt'>
-      <div class="center">
-  <h2 class="center__text glitch is-glitching" data-text="Hi, I'm Kat!">Hi, I'm Kat!</h2>
+  <h1>Hi, I'm Kat!</h1>
       </div>
         <p>I'm a Full Stack Developer from New York.</p>
         <p>I have a passion for innovation and creativity.</p>
@@ -31,7 +30,6 @@ function AboutMe() {
           src={over ? katCool : kat}
           alt={'insert cool pic of kat here'}
         />
-      </div>
       </div>
     </div>
   );

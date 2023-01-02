@@ -1,5 +1,5 @@
 .dark {
-  background: url('../assets/images/darkmode.png');
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
   font-family: 'Courier New', monospace;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 
 
 .light {
-  background: url('../assets/images/lightmode.png');
+  background: linear-gradient(90deg, rgba(255,254,254,1) 0%, rgba(254,243,179,1) 100%);
   font-family: 'Courier New', monospace;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -19,113 +19,88 @@
   color: black;
 }
 
-.button-78 {
-  align-items: center;
-  appearance: none;
-  background-clip: padding-box;
-  background-color: initial;
-  background-image: none;
-  border-style: none;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  flex-direction: row;
-  flex-shrink: 0;
-  font-family: 'Courier New', monospace;
-  font-size: 16px;
-  font-weight: 800;
-  justify-content: center;
-  line-height: 24px;
-  margin: 0;
-  min-height: 64px;
-  outline: none;
-  overflow: visible;
-  padding: 19px 26px;
-  pointer-events: auto;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  width: auto;
-  word-break: keep-all;
-  z-index: 0;
+.area {
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  animation: swing 1s infinite ease-in-out alternate;
+  transform-origin: top;
+  -moz-transform-origin: top;
+  -webkit-transform-origin: top;
 }
 
-@media (min-width: 768px) {
-  .button-78 {
-    padding: 19px 32px;
+.wire {
+  position: relative;
+  left: 98px;
+  height: 75px;
+  width: 4px;
+  background-color: black;
+}
+
+.fixture {
+  position: relative;
+  background-color: grey;
+  width: 16px;
+  height: 20px;
+  left: 92px;
+}
+
+.strip {
+  position: relative;
+  width: 18px;
+  height: 2px;
+  right: 1px;
+  top: 4px;
+  background-color: darkgrey;
+}
+
+.strip:nth-of-type(2) {
+  top: 7px;
+}
+
+.strip:nth-of-type(3) {
+  top: 10px;
+}
+
+.bulb {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 80px;
+  bottom: 2px;
+  z-index: -1;
+  background-color: rgba(226, 211, 161, 0.85);
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 300px 77px rgba(235, 209, 164, 1);
+  -moz-box-shadow: 0px 0px 300px 77px rgba(235, 209, 164, 1);
+  box-shadow: 0px 0px 300px 77px rgba(235, 209, 164, 1);
+}
+
+.zig {
+  position: relative;
+  background-color: transparent;
+  width: 10px;
+  height: 5px;
+  border-radius: 5px / 2.5px;
+  left: 14px;
+  border: black solid 1px;
+}
+
+.zig:nth-of-type(2) {
+  top: -3px;
+}
+
+.zig:nth-of-type(3) {
+  top: -6px;
+}
+
+@keyframes swing {
+  from {
+      -moz-transform: rotate(3deg);
+      -webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
+  }
+  to {
+      transform: rotate(-3deg);
   }
 }
-
-.button-78:before,
-.button-78:after {
-  border-radius: 80px;
-}
-
-.button-78:before {
-  background-image: linear-gradient(92.83deg, #D47284 0, #EDAA84 100%);
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -2;
-}
-
-.button-78:after {
-  background-color: initial;
-  background-image: linear-gradient( #EDAA84 0, #D47284 100%);
-  bottom: 4px;
-  content: "";
-  display: block;
-  left: 4px;
-  overflow: hidden;
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  transition: all 100ms ease-out;
-  z-index: -1;
-}
-
-.button-78:hover:not(:disabled):before {
-  background: linear-gradient(92.83deg, #D47284 0%, #EDAA84 100%);
-}
-
-.button-78:hover:not(:disabled):after {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  transition-timing-function: ease-in;
-  opacity: 0;
-}
-
-.button-78:active:not(:disabled) {
-  color: #ccc;
-}
-
-.button-78:active:not(:disabled):before {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #EDAA84 0, #D47284 100%);
-}
-
-.button-78:active:not(:disabled):after {
-  background-image: linear-gradient(#EDAA84 0, #D47284 100%);
-  bottom: 4px;
-  left: 4px;
-  right: 4px;
-  top: 4px;
-}
-
-.button-78:disabled {
-  cursor: default;
-  opacity: .24;
-}
-
