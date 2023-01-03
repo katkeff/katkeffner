@@ -1,5 +1,7 @@
 .nav {
-  background-color: #777;
+  position: sticky;
+  top: 0;
+  background: #777;
   box-sizing: border-top;
   margin: 0;
   display: flex;
@@ -16,9 +18,12 @@
   display: flex;
   gap: 1rem;
 }
+
 .site-title {
   font-size: 2rem;;
+  text-align: right;
 }
+
 .nav a {
   color: inherit;
   text-decoration: none;

@@ -8,6 +8,20 @@
   color: white;
 }
 
+.light {
+  background: linear-gradient(90deg, rgba(255,254,254,1) 0%, rgba(254,243,179,1) 100%);
+  font-family: 'Courier New', monospace;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: x-large;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
 a:link {
   color: #D47284;
 }
@@ -20,21 +34,10 @@ a:hover {
   color: #EDAA84;
 }
 
-
-.light {
-  background: linear-gradient(90deg, rgba(255,254,254,1) 0%, rgba(254,243,179,1) 100%);
-  font-family: 'Courier New', monospace;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: x-large;
-  color: black;
-}
-
 .area {
   position: absolute;
   width: 200px;
-  height: 500px;
+  height: 200px;
   animation: swing 1s infinite ease-in-out alternate;
   transform-origin: top;
   -moz-transform-origin: top;
@@ -44,7 +47,7 @@ a:hover {
 .wire {
   position: relative;
   left: 98px;
-  height: 75px;
+  height: 100px;
   width: 4px;
   background-color: black;
 }

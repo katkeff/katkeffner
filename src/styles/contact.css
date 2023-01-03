@@ -1,17 +1,16 @@
-.container{
+.container {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.icon{
-  color: #D47284;
+.icon {
+  color: #d47284;
   padding: 0.5em;
-  font-size: 60px
+  font-size: 60px;
 }
 
 .icon:hover {
-  color: #EDAA84;
+  color: #edaa84;
 }
-
