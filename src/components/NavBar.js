@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <nav className="nav">
-      <Link to="/" className="site-title">
+      <div className="site-title">
         {" "}
         Kat Keffner{" "}
-      </Link>
+      </div>
       <ul>
         <li>
           <Link
